@@ -87,7 +87,7 @@ export const CounterCard = ({ name, timeValue, def }: Props) => {
 
   return (
     <div className="flex flex-col justify-center items-center gap-7">
-      <div className=" relative overflow-hidden size-16 md:w-40 md:h-32 shadow-[0px_10px_5px_0px_rgba(0,0,0,0.5)]">
+      <div className=" relative overflow-hidden w-[86px] h-16 md:w-40 md:h-32 shadow-[0px_10px_5px_0px_rgba(0,0,0,0.5)]">
         <div className=" w-2.5 h-2.5 absolute bg-black rounded-full z-20 top-[50%] translate-x-[-50%] translate-y-[-50%]"></div>
 
         <div className=" w-2.5 h-2.5 absolute bg-black rounded-full z-20 top-[50%] right-0 translate-x-[50%] translate-y-[-50%]"></div>

@@ -65,9 +65,9 @@ export default function Home() {
     //   </div>
     // </main>
 
-    <div className=" min-h-screen w-full bg-[#1e1f29] font-RedHat ">
-      <div className="bg-star-pattern min-h-screen w-full flex flex-col justify-normal items-center relative pt-[50px] md:pt-[50px]">
-        <div className="w-full flex flex-col justify-center items-center gap-24">
+    <div className="h-screen w-full bg-[#1e1f29] font-RedHat ">
+      <div className=" bg-star-pattern min-h-screen w-full flex flex-col justify-normal items-center relative pt-[50px] md:pt-[50px]">
+        <div className="w-full flex-1 flex flex-col items-center gap-24">
           <h1 className=" text-white uppercase font-bold text-xl tracking-[4px]  text-center">
            I&apos;ll be waiting for you, <span className="text-[#5A639C]">bánh cuốn 😌😌😌</span> 
           </h1>
